@@ -34,7 +34,7 @@ def game():
             print("Opcion no valida, ingresa una opcion valida perro")
             continue
         computer_wins, usser_wins, counter =  winner_game(index_computer,computer_wins,index_user,usser_wins,counter) 
-        print("La opcion de l maquina es: ", computer_option)
+        print("La opcion de la maquina es: ", computer_option)
         print("La opcion del usuario es: ", user_option)
         print("La maquina tiene ", computer_wins, " ganadas")
         print("El usuario tiene ", usser_wins, " ganadas")
